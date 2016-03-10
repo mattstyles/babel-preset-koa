@@ -1,0 +1,36 @@
+{
+  "name": "babel-preset-koa",
+  "version": "1.0.0",
+  "description": "Babel preset for koa@next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattstyles/babel-preset-koa.git"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "koa",
+    "node",
+    "node5",
+    "destructuring",
+    "async-await",
+    "async",
+    "async/await",
+    "class-parameters"
+  ],
+  "author": "Matt Styles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattstyles/babel-preset-koa/issues"
+  },
+  "homepage": "https://github.com/mattstyles/babel-preset-koa",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.7.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
+    "babel-plugin-transform-es2015-parameters": "^6.7.0"
+  }
+}
